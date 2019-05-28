@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Form from Chapter 5</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/mycss.css">
+	</head>
+<body>
+	<main class="Feedback">
+		<form id="contact">
+		<table>
+			<tr>
+				<td>Title:</td>
+				<td>
+					<select name="salute">
+						<option>Miss.</option>
+						<option>Mrs.</option>
+						<option>Ms.</option>
+						<option>Srta.</option>
+						<option>Sra.</option>
+						<option>Dr.</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>First Name:</td>
+				<td>
+					<input type="text" name="firstname" id="fn" size="40">
+				</td>
+			</tr>
+			<tr>
+				<td>Middle Initial:</td>
+				<td>
+					<input type="text" name="middlename" size="1">
+				</td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td>
+					<input type="text" name="lastname" size="40">
+				</td>
+			</tr>
+			<tr>
+				<td>E-mail Address:</td>
+				<td>
+					<input type="text" name="email" size="40">
+				</td>
+			</tr>
+			<tr>
+				<td>Phone#:</td>
+				<td>
+					<input type="text" name="phone" size="40">
+				</td>
+			</tr>
+			<tr>
+				<td>Subject:</td>
+				<td>
+					<input type="text" name="subject" size="40">
+				</td>
+			</tr>
+			<tr>
+				<td>Say Something Nice:</td>
+				<td>
+					<textarea name="message" rows="6" cols="40">
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					Click here if you want a reply:
+					<input type="checkbox" name="reply" value="yes">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Send Above Information">
+				</td>
+				<td>
+					<input type="reset" value="Reset This Form">
+				</td>
+			</tr>
+		</table>
+		</form>	
+	</main>
+</body>
+</html>
